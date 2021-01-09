@@ -1,0 +1,53 @@
+.grid{
+  width: 450px;
+  height: 450px;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.grid div{
+  width: 50px;
+  height: 50px;
+}
+
+.startpoint {
+  background-color: mediumpurple;
+}
+
+.endpoint{
+  background-color: aquamarine;
+}
+
+.frog{
+  background-color: green;
+}
+
+.l1{
+  background-image: url(l1.png);
+  background-size: cover;
+  }
+
+.l2{
+  background-image: url(l2.png);
+  background-size: cover;
+  }
+
+.l3{
+  background-image: url(l3.png);
+  background-size: cover;
+}
+
+.l4, .l5{
+  background-color: skyblue;
+}
+
+.c1{
+  background-image: url(cleft.png);
+  background-size: cover;
+}
+
+.c2, .c3{
+  background-color: grey;
+}
